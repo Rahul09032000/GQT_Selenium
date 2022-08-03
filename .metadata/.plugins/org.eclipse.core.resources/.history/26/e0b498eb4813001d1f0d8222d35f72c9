@@ -1,0 +1,12 @@
+package com.gqt.selenium;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Launch27 {
+	public static void main(String[] args) {
+		WebDriver driver = new ChromeDriver();
+		driver.manage().window().maximize();
+		driver.get("F:/GQT Selenium/HTML for Selenium/page1.html");
+	}
+}
