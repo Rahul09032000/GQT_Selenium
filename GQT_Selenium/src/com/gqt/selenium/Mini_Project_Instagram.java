@@ -21,11 +21,11 @@ public class Mini_Project_Instagram
 		
 		// To find e-mail text field
 		WebElement un_tf = driver.findElement(By.xpath("//input[@aria-label = 'Phone number, username, or email']"));
-		un_tf.sendKeys("daali_aliyas_richi");
+		un_tf.sendKeys("---Enter your User Name Here---");
 		
 		// To find password text field
 		WebElement pwd_tf = driver.findElement(By.xpath("//input[@aria-label = 'Password']"));
-		pwd_tf.sendKeys("NotPossible_0903");
+		pwd_tf.sendKeys("---Enter your Password here---");
 		Thread.sleep(5000);
 		
 		// To find login Button
